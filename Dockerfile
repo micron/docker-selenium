@@ -1,4 +1,4 @@
-FROM elgalu/selenium:3.6.0-p4
+FROM elgalu/selenium:3.8.1-p12
 MAINTAINER miron.ogrodowicz@kreativrudel.de
 
 RUN set -ex; \
