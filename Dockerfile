@@ -4,7 +4,7 @@ MAINTAINER miron.ogrodowicz@kreativrudel.de
 RUN set -ex; \
     \
     sudo apt-get update; \
-    sudo apt-get install -y socat iptables \
+    sudo apt-get install -y socat \
     ; \
     sudo rm -rf /var/lib/apt/lists/*
 
